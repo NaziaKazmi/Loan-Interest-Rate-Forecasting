@@ -6,15 +6,12 @@ A **Deep Learning (ANN) project** to predict loan interest rates based on histor
 
 ```
 LoanInterestApp/
-│
-├── data/                 # Dataset(s) used for training
 ├── models/               # Trained ANN model and preprocessing pipelines
 ├── apps/                 # Interfaces for prediction
 │   ├── flask_app.py
 │   ├── gradio_app.py
 │   ├── fastapi_app.py
 │   └── streamlit_app.py
-└── requirements.txt      # Python dependencies
 ```
 
 ## Features
