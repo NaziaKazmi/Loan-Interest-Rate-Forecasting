@@ -80,7 +80,6 @@ streamlit run apps/streamlit_app.py
 
 Contributions are welcome! Feel free to fork the repo, add features, or improve documentation.
 
-## License
 
-This project is licensed under the MIT License.
+
 
