@@ -14,7 +14,6 @@ LoanInterestApp/
 │   ├── gradio_app.py
 │   ├── fastapi_app.py
 │   └── streamlit_app.py
-├── notebook/             # Jupyter notebook for training and experimentation
 └── requirements.txt      # Python dependencies
 ```
 
