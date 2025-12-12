@@ -71,12 +71,20 @@ python apps/fastapi_app.py
 ```bash
 streamlit run apps/streamlit_app.py
 ```
+**Dataset**
+
+The full dataset is large (>100MB) and not uploaded to GitHub.
+You can download it from this link: https://www.kaggle.com/datasets/wordsforthewise/lending-club
 
 > ⚠️ Note: Large files such as the trained model or dataset may need to be downloaded separately.
 
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repo, add features, or improve documentation.
+
+**Author**
+
+Nazia Kazmi
 
 
 
