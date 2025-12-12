@@ -6,16 +6,13 @@ A **Deep Learning (ANN) project** to predict loan interest rates based on histor
 
 ```
 LoanInterestApp/
-│
-├── data/                 # Dataset(s) used for training
 ├── models/               # Trained ANN model and preprocessing pipelines
 ├── apps/                 # Interfaces for prediction
 │   ├── flask_app.py
 │   ├── gradio_app.py
 │   ├── fastapi_app.py
 │   └── streamlit_app.py
-├── notebook/             # Jupyter notebook for training and experimentation
-└── requirements.txt      # Python dependencies
+|___ Templates
 ```
 
 ## Features
@@ -80,7 +77,6 @@ streamlit run apps/streamlit_app.py
 
 Contributions are welcome! Feel free to fork the repo, add features, or improve documentation.
 
-## License
 
-This project is licensed under the MIT License.
+
 
