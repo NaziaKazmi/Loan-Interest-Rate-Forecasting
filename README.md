@@ -11,7 +11,7 @@ LoanInterestApp/
 │   ├── flask_app.py
 │   ├── gradio_app.py
 │   ├── fastapi_app.py
-│  └── streamlit_app.py
+│   └── streamlit_app.py
 |___ Images
 |___ Templates
 ```
