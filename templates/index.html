@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Interest Rate Prediction</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 50px; }
+        input, select { padding: 8px; margin: 5px; width: 200px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        .result { margin-top: 20px; font-size: 18px; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Loan Interest Rate Prediction</h2>
+    <form method="POST">
+        <input type="number" name="loan_amnt" placeholder="Loan Amount" step="0.01" required><br>
+        <input type="number" name="annual_inc" placeholder="Annual Income" step="0.01" required><br>
+        <input type="number" name="fico_range_low" placeholder="FICO Range Low" step="0.01" required><br>
+        <input type="number" name="fico_range_high" placeholder="FICO Range High" step="0.01" required><br>
+        <input type="number" name="dti" placeholder="DTI" step="0.01" required><br>
+        <input type="number" name="delinq_2yrs" placeholder="Delinquencies in 2yrs" required><br>
+        <input type="number" name="emp_length" placeholder="Employment Length (years)" required><br>
+        <input type="text" name="purpose" placeholder="Purpose" required><br>
+        <select name="term" required>
+            <option value="36 months">36 months</option>
+            <option value="60 months">60 months</option>
+        </select><br>
+        <input type="number" name="revol_util" placeholder="Revolving Utilization (%)" step="0.01" required><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <div class="result">Predicted Interest Rate: {{ prediction }}%</div>
+    {% endif %}
+    {% if error %}
+        <div class="error">Error: {{ error }}</div>
+    {% endif %}
+</body>
+</html>
