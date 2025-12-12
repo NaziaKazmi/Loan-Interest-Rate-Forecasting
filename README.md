@@ -12,7 +12,7 @@ LoanInterestApp/
 │   ├── gradio_app.py
 │   ├── fastapi_app.py
 │   └── streamlit_app.py
-```
+```Templates
 
 ## Features
 
